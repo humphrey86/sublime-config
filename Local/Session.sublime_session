@@ -1,0 +1,733 @@
+{
+	"folder_history":
+	[
+		"/C/06Clents/SRCB/Implement/Visualizer"
+	],
+	"last_version": 3083,
+	"last_window_id": 2,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 480.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 311.0,
+				"last_filter": "inst",
+				"selected_items":
+				[
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"package control:re",
+						"Package Control: Remove Package"
+					],
+					[
+						"package control list",
+						"Package Control: List Packages"
+					],
+					[
+						"",
+						":$ - EOF"
+					],
+					[
+						":w",
+						":w - Save"
+					],
+					[
+						":q",
+						"Set Syntax: SQL"
+					],
+					[
+						":/env",
+						"Snippet: #!/usr/bin/env"
+					],
+					[
+						"setting",
+						"Preferences: Settings - User"
+					]
+				],
+				"width": 400.0
+			},
+			"console":
+			{
+				"height": 202.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/06Clents/SRCB/DBA/ntpd",
+				"/C/01Aster/Env/AppCenter/examples/Shopping-Analyzer---Example-App/Shopping-Analyzer---Example-App/java/src/com/teradata/apps/ShoppingAnalyzer.java",
+				"/C/Users/Administrator/Desktop/gpoutput.sh",
+				"/C/01Aster/Env/AppCenter/Visualizer/trans_network.sql",
+				"/C/06Clents/SRCB/Implement/Visualizer/customer_finder.sql",
+				"/C/06Clents/SRCB/Implement/Visualizer/gn.sql",
+				"/C/01Aster/Env/AppCenter/examples/geo/geo_humphrey/data.sql",
+				"/C/01Aster/Env/AppCenter/examples/geo/geo_humphrey/geo_dim_china.txt",
+				"/C/01Aster/Doc/From Lihong/工行/ICBC aster POC _for PPT use.sql",
+				"/C/01Aster/Env/AppCenter/examples/geo/geohumphrey/data.sql",
+				"/C/06Clents/SRCB/Implement/Visualizer/network.sql",
+				"/C/01Aster/Env/AppCenter/Visualizer/sigma_localized/index.html",
+				"/C/01Aster/Env/AppCenter/Visualizer/sigma_localized/vendor/language.js",
+				"/C/06Clents/SRCB/Implement/network-configuration.txt",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+				"/C/06Clents/SRCB/Implement/Visualizer/demo.sql",
+				"/C/01Aster/Doc/aster management/ddl_info.sql"
+			],
+			"find":
+			{
+				"height": 27.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"act",
+					";",
+					":",
+					"经度",
+					"纬度",
+					";  ",
+					"城市",
+					"ACCT_ID",
+					"acct_id",
+					"temp",
+					"input",
+					"ANA_DEPOIST_CUST_EDGES_TMP",
+					"create",
+					"CREATE",
+					"create",
+					"pandding"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": false,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"net",
+						"network.sql"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 50.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 640.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/C/01Aster/Env/AppCenter/Visualizer/trans_network.sql",
+					"settings":
+					{
+						"buffer_size": 9224,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/06Clents/SRCB/Implement/Visualizer/demo.sql",
+					"settings":
+					{
+						"buffer_size": 8702,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/06Clents/SRCB/DBA/pre_dev.sql",
+					"settings":
+					{
+						"buffer_size": 2612,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "\"\"\" program step1\nl = ['adam', 'lisa', 'bart']\nl[0] = 'bart'\nl[-1] = 'adam'\nprint l\n\"\"\"\n\n\"\"\" program step2\n\nscore = 45\nif score >= 60:\n	print 'passed'\nelse:\n	print 'faild'\n\nprint 'end'\n\"\"\"\n\n\n\"\"\" program\n\n\nl = [75, 92, 59, 68]\nsum = 0.0\nfor i in l:\n    sum = sum + i\n\nprint sum/4\n\n\nsum = 0\nx = 1\nn = 1\nwhile 1==1:\n    sum = sum + x\n    x = n * 2\n    n = n + 1\n    if x > 20:\n    	break	\n\nprint sum\n\"\"\"\n\n\"\"\"\n# This program uses recursion to calculate the factorial of a number.\ndef main():\n    # Get a number from the user.\n    number = input('Enter a nonnegative integer:')\n    # Get the factorial of the number.\n    fact = factorial(number)\n    # Display the factorial.\n    print 'The factorial of', number, 'is', fact\n\n\ndef factorial(num):\n    if num == 0:\n        return 1\n    else:\n        return num * factorial(num - 1)\nmain()\n\"\"\"\ndef count():\n    fs = []\n    for i in range(1, 4):\n        def f(j):\n            def g():\n                return j*j\n            return g\n        r = f(i)\n        fs.append(r)\n    return fs\n\nf1,f2,f3 = count()\nprint f1.__name__,f2,f3\n\n\"\"\"\ndef count():\n    fs = []\n    for i in range(1, 4):\n        def f():\n             return i*i\n        fs.append(f)\n    return fs\n\nf1, f2, f3 = count()\nprint f1,f2,f3\nprint f1(),f1(),f3()\n\"\"\"",
+					"file": "/C/08Code/python/humphrey.py",
+					"file_size": 1389,
+					"file_write_time": 130950962603584281,
+					"settings":
+					{
+						"buffer_size": 1263,
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "Anaconda Python Builder",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Anaconda Python Builder",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Anaconda Python Builder",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"last_filter": ":w",
+				"selected_items":
+				[
+					[
+						":w",
+						":w - Save"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"package control:re",
+						"Package Control: Remove Package"
+					],
+					[
+						"package control list",
+						"Package Control: List Packages"
+					],
+					[
+						"",
+						":$ - EOF"
+					],
+					[
+						":q",
+						"Set Syntax: SQL"
+					],
+					[
+						":/env",
+						"Snippet: #!/usr/bin/env"
+					],
+					[
+						"setting",
+						"Preferences: Settings - User"
+					]
+				],
+				"width": 416.0
+			},
+			"console":
+			{
+				"height": 202.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/C/06Clents/SRCB/Implement/Visualizer"
+			],
+			"file_history":
+			[
+				"/C/01Aster/Env/AppCenter/examples/geo/geo_humphrey/data.sql",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/.git/COMMIT_EDITMSG",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/.git/index",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/.git/HEAD",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/.git/description",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/.git/hooks/commit-msg.sample",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/.git/config",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+				"/C/08Code/Visualizer/Visualizer/META-INF/MANIFEST.MF",
+				"/C/08Code/Visualizer.src/com/asterdata/visualization/sqlmr/analytics/Visualizer.java",
+				"/C/08Code/aster/src/com/teradata/aster/FillUnchangedValues.java",
+				"/C/08Code/aster/src/com/teradata/aster/new_file.sql",
+				"/D/ThreePointsFix/td/sqlmr/ThreePointsFix.java",
+				"/C/Users/Administrator/AppData/Local/Temp/Rar$DIa0.093/Config.java",
+				"/C/Users/Administrator/AppData/Local/Temp/Rar$DIa0.211/GraphNodeAttribute.java",
+				"/C/Users/Administrator/AppData/Local/Temp/Rar$DIa0.740/GraphNode.java",
+				"/C/01Aster/Doc/aster management/bin/lib/logger/Log.py",
+				"/C/01Aster/Doc/aster management/bin/lib/TxmanClient.py",
+				"/C/01Aster/Doc/aster management/bin/lib/aster/DBUtil.py",
+				"/C/01Aster/Doc/aster management/bin/lib/StatsServer.py",
+				"/C/01Aster/Doc/aster management/bin/lib/HttpClient.py",
+				"/C/01Aster/Doc/aster management/bin/lib/StatsServer_pm.py",
+				"/C/08Code/cowpy/db.py",
+				"/C/08Code/cowpy/run1.py",
+				"/C/08Code/cowpy/analyse.py",
+				"/C/08Code/cowpy/LG.py",
+				"/C/08Code/cowpy/run2.py",
+				"/C/08Code/cowpy/README.txt",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/GitGutter.sublime-settings",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Anaconda/README.md",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-settings",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
+				"/C/01Aster/Env/AppCenter/Visualizer/ANA_DEPOIST_CUST_NODE.sql",
+				"/C/06Clents/ICBC/ddl/create table.sql",
+				"/C/08Code/R/Rexe.R",
+				"/C/06Clents/ICBC/ddl/create table",
+				"/C/01Aster/Doc/From Yunlong/veyron_data/veyron/veyron/jdbc/JDBCServer.java",
+				"/C/01Aster/Doc/From Lihong/工行/ICBC aster POC _for PPT use.sql",
+				"/C/01Aster/Doc/From Yunlong/veyron_data/veyron/veyron/jdbc/JDBCRequestHandler.java",
+				"/C/01Aster/Doc/From Yunlong/veyron_data/veyron/veyron/jdbc/AsterConnection.java",
+				"/C/01Aster/Doc/aster training/AdvDBA/shell/p_add_partition.sql",
+				"/C/01Aster/Doc/aster training/AdvDBA/shell/gpoutput.sh",
+				"/C/01Aster/Doc/aster training/AdvDBA/shell/datafilecolumn.sh",
+				"/C/01Aster/Env/AppCenter/source/src/src/com/teradata/aster/miniapp/renderer/common/RenderingObjectSeries.java",
+				"/C/01Aster/Env/AppCenter/source/src/src/com/teradata/aster/miniapp/renderer/common/PayLoad.java",
+				"/C/Users/Administrator/Downloads/money-flow-12-04-15/data.js",
+				"/C/01Aster/Env/AppCenter/source/src/src/com/teradata/aster/miniapp/renderer/common/VizGraphNode.java",
+				"/C/01Aster/Env/AppCenter/source/src/src/com/teradata/aster/miniapp/renderer/sigma/SigmaRenderingObj.java",
+				"/C/01Aster/Env/AppCenter/source/src/src/com/teradata/aster/miniapp/renderer/sigma/NodeColorCustomTransformer.java",
+				"/C/01Aster/Env/AppCenter/source/src/src/com/teradata/aster/miniapp/renderer/sigma/GephiEngineWrapper.java",
+				"/C/01Aster/Env/AppCenter/source/src/src/com/teradata/aster/miniapp/renderer/sigma/Converter.java",
+				"/C/Users/Administrator/AppData/Local/Temp/Rar$DIa0.538/queries.sql",
+				"/C/Users/Administrator/AppData/Roaming/VanDyke/Config/Global.ini",
+				"/C/Users/ADMINI~1/AppData/Local/Temp/Rar$DRa0.659/src/com/teradata/apps/ShoppingAnalyzer.java",
+				"/C/06Clents/SRCB/DBA/grant_function.sql",
+				"/C/01Aster/Doc/aster management/move functions/downloadfun.sh",
+				"/C/01Aster/Doc/aster management/logs/diary.py",
+				"/C/01Aster/Doc/aster management/downloadfun.sh",
+				"/C/01Aster/Env/AppCenter/examples/Shopping-Analyzer---Example-App/Shopping-Analyzer---Example-App/java/src/com/teradata/apps/ShoppingAnalyzer.java",
+				"/C/Users/Administrator/Desktop/gpoutput.sh",
+				"/C/01Aster/Doc/aster management/logs/logsorter",
+				"/C/06Clents/SRCB/DBA/pre_dev.sql",
+				"/C/06Clents/SRCB/DBA/ntpd",
+				"/C/01Aster/Env/AppCenter/Visualizer/trans_network.sql",
+				"/C/06Clents/SRCB/Implement/Visualizer/customer_finder.sql",
+				"/C/06Clents/SRCB/Implement/Visualizer/gn.sql",
+				"/C/01Aster/Env/AppCenter/examples/geo/geo_humphrey/geo_dim_china.txt",
+				"/C/01Aster/Env/AppCenter/examples/geo/geohumphrey/data.sql",
+				"/C/06Clents/SRCB/Implement/Visualizer/network.sql",
+				"/C/01Aster/Env/AppCenter/Visualizer/sigma_localized/index.html",
+				"/C/01Aster/Env/AppCenter/Visualizer/sigma_localized/vendor/language.js",
+				"/C/06Clents/SRCB/Implement/network-configuration.txt",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+				"/C/06Clents/SRCB/Implement/Visualizer/demo.sql",
+				"/C/01Aster/Doc/aster management/ddl_info.sql"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"font_face",
+					"front_face",
+					"python",
+					"cluster",
+					"Eccentricity",
+					"addNode",
+					"act",
+					";",
+					":",
+					"经度",
+					"纬度",
+					";  ",
+					"城市",
+					"ACCT_ID",
+					"acct_id",
+					"temp",
+					"input",
+					"ANA_DEPOIST_CUST_EDGES_TMP",
+					"create",
+					"CREATE",
+					"create",
+					"pandding"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "C:\\06Clents\\SRCB\\Implement\\Visualizer"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 3,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/C/01Aster/Env/AppCenter/Visualizer/trans_network.sql",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 9224,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4172,
+										4172
+									]
+								],
+								"settings":
+								{
+									"WordCountSyntax": "sql",
+									"encoding_helper_encoding": "UTF-8",
+									"encoding_thread_running": true,
+									"syntax": "Packages/SQL/SQL.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1407.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/C/06Clents/SRCB/Implement/Visualizer/demo.sql",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8702,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1292,
+										1292
+									]
+								],
+								"settings":
+								{
+									"WordCountSyntax": "sql",
+									"encoding_helper_encoding": "UTF-8",
+									"encoding_thread_running": true,
+									"syntax": "Packages/SQL/SQL.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1710.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/C/06Clents/SRCB/DBA/pre_dev.sql",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2612,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										367,
+										367
+									]
+								],
+								"settings":
+								{
+									"WordCountSyntax": "sql",
+									"encoding_helper_encoding": "UTF-8",
+									"encoding_thread_running": true,
+									"syntax": "Packages/SQL/SQL.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1083.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/C/08Code/python/humphrey.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1263,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1070,
+										1070
+									]
+								],
+								"settings":
+								{
+									"WordCountShouldRun": false,
+									"WordCountSyntax": "python",
+									"encoding_helper_encoding": "UTF-8",
+									"encoding_thread_running": true,
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 855.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.exec":
+			{
+				"height": 60.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,2,3,-32000,-32000,-1,-1,643,140,105,796",
+			"project": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"net",
+						"network.sql"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 184.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

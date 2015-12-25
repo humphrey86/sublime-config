@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"EncodingHelper",
+		"GitGutter",
+		"Highlight",
+		"Package Control",
+		"Python PEP8 Autoformat",
+		"RailsCasts Colour Scheme",
+		"SublimeLinter",
+		"WordCount"
+	]
+}
